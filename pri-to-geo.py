@@ -1,15 +1,14 @@
-import subprocess
 import os
 import shutil
+import subprocess
 import sys
 import time
-import psutil
-import re
-import chardet
-import xml.etree.ElementTree as ET  # 新增导入语句
 from pathlib import Path
+from queue import Queue
 from threading import Thread
-from queue import Queue, Empty
+
+import chardet
+import psutil
 
 # 配置基准路径
 BASE_DIR = Path(__file__).parent.resolve()

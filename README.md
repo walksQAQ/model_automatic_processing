@@ -1,0 +1,3 @@
+本程序适用于将从blender导出的.primitives文件一键转化为由Lesta运营的Mir Korabley可读取的.geometry模型文件。
+
+目前还是简易程序。
